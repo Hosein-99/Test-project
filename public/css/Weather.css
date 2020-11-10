@@ -1,0 +1,146 @@
+.wt-main-body{
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+.wt-left{
+    padding-left: 11px;
+    padding-right: 5px;
+}
+.wt-right{
+    padding-left: 10px;
+}
+.wtr-header{
+    margin-bottom: 18px;
+    border-bottom: 1px solid black;
+    height: 34px;
+}
+.wtr-header span{
+    text-align: right;
+    padding-right: 5px;
+    color:black ;
+    border-bottom: 3px solid green;
+    font: 18px/37px iransans;
+    font-weight: bold;
+}
+.wtr-main{
+    margin-bottom: 10px;
+    font: 12px/22px iransans;
+    width: 100%;
+}
+.wtrm-top {
+    margin-bottom: 5px;
+
+}
+.wtrm-top select{
+    font: 13px iransans;
+    color: black;
+    height: auto;
+
+}
+.wtr-city{
+    float: right;
+    background-color: #EFEFEF;
+    margin: 1px;
+    text-align: center;
+
+}
+.wtr-city a{
+  text-decoration: none;
+    font: 14px iransans;
+    font-weight: bold;
+    color: black;
+    display: block;
+}
+.wtr-city:hover{
+    text-decoration: none;
+    background-color: red;
+    color: white;
+}
+.wtr-city a:hover{
+    text-decoration: none;
+    color: white;
+}
+.wtr-bott{
+    margin: 20px auto;
+    border: 1px solid black;
+    padding: 4px;
+    background: white;
+}
+.wtrb-head{
+    font: 18px iransans;
+    padding: 4px 8px 8px 8px;
+}
+.wtrb-city{
+    color: red;
+}
+.wtrb-time{
+   direction: ltr !important;
+}
+.wtrb-r{
+    border: 1px solid black;
+    height:279px ;
+    float: right;
+    padding: 4px;
+    width: 50%;
+}
+.wtrb-r-in{
+    padding-top: 3px;
+}
+.wtrb-r-in-1{
+    color: black;
+    font: 12px iransans;
+    font-weight: bold;
+}
+.wtrb-r-in-2{
+    color: black;
+    font: 12px iransans;
+    font-weight: bold;
+    padding: 0 4px;
+    direction: ltr !important;
+}
+.wtrb-l{
+    width: 50%;
+    float: right;
+    padding-right: 4px;
+}
+.wtrb-l-in-t{
+    margin-bottom: 20px;
+}
+.wtrb-l-in-1{
+    text-align: right;
+    padding: 3px;
+    font: 17px iransans;
+    font-weight: bold;
+}
+.wtrb-l-in-2{
+    text-align: right;
+    padding-top:80px;
+    font: 13px iransans;
+    font-weight: bold;
+}
+.wtrb-l-in-b{
+    border: 1px solid black;
+}
+.wtrb-l-in-b-1{
+    background-color: black;
+    color: white;
+    font: 16px iransans;
+    font-weight: bold;
+    text-align: center;
+}
+.wtrb-l-in-b-2{
+    padding-top: 3px;
+}
+.wtrb-r-l-in-1{
+    color: black;
+    font: 12px iransans;
+    font-weight: bold;
+    padding-right: 4px;
+}
+.wtrb-r-l-in-2{
+    color: black;
+    font: 12px iransans;
+    font-weight: bold;
+    padding: 0 4px;
+    direction: ltr !important;
+}

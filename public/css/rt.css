@@ -1,0 +1,89 @@
+.rt-main-body{
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+.rt-left{
+    padding-left: 11px;
+    padding-right: 5px;
+}
+.rtr-header{
+    margin-bottom: 18px;
+    border-bottom: 1px solid black;
+    height: 34px;
+}
+.rtr-header span{
+    text-align: right;
+    padding-right: 5px;
+    color:black ;
+    border-bottom: 3px solid green;
+    font: 18px/37px iransans;
+    font-weight: bold;
+}
+rt-right{
+    margin-bottom: 10px;
+    font: 12px/22px iransans;
+}
+.rtr-main{
+    margin: auto;
+    padding: 40px 0;
+    width: 460px;
+}
+.rtrm-rform{
+    float: right;
+    margin-left: 20px;
+    width: 205px;
+}
+.rtrm-rform table{
+    display: inline;
+    text-align: center;
+    border: none;
+}
+
+.rtrm-rform table span{
+    margin-right: 5px;
+    margin-left: 5px;
+    font: 13px iranSans;
+    color: black;
+    font-weight: bold;
+}
+.rtrm-rform select{
+    width: 165px;
+    height: 17px;
+    font: 13px iranSans;
+    color: black;
+}
+.date{
+    width: 80px;
+    direction: ltr;
+    color: black;
+    font: 14px iransans;
+    text-align: center;
+}
+.show{
+    background-color: #5cb85c;
+    color: white;
+    font: 14px iransans;
+    text-align: center;
+    margin-top: 4px;
+}
+.rtrm-lfrom{
+    width: 223px;
+    float: right;
+}
+.rtrm-lfrom table{
+    width: 100%;
+    float: right;
+    border: 1px solid black;
+}
+.rtrm-lfrom table th{
+    border: 1px solid black;
+    border-collapse: collapse;
+    font: 14px iransans;
+    font-weight: normal;
+}
+.rtrm-lfrom table td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    font: 14px iransans;
+    font-weight: normal;
+}

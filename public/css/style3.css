@@ -1,0 +1,144 @@
+@font-face {
+    font-family: 'iransans';
+    src: url('Fonts/BRoya.eot'); /* IE9 Compat Modes */
+    src: url('Fonts/BRoya.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+
+    url('Fonts/BRoya.woff') format('woff'), /* Pretty Modern Browsers */
+    url('Fonts/BRoya.ttf')  format('truetype'); /* Safari, Android, iOS */
+
+}
+
+
+*{
+    direction: rtl;
+    font-family: iransans;
+
+}
+.main-body{
+    margin: 25px 0 10px 0;
+}
+.main-right-b{
+    padding-left: 10px;
+}
+.main-left-b{
+    padding-left: 11px;
+    padding-right: 5px;
+}
+.wrapper{
+    clear: both;
+    height: 0 ;
+    overflow: hidden;
+}
+.mrb-header{
+    margin-bottom: 15px;
+    border-bottom: 1px solid gray;
+    height: 42px;
+}
+.mrb-header span{
+    padding-right: 8px;
+    color: black;
+    font: 18px/48px IRANSans;
+    border-bottom: 3px solid green;
+    font-weight: bold;
+}
+.mrb-number_page{
+    width: 100%;
+    margin: 15px 0;
+    height: 31px;
+    overflow: hidden;
+    text-align: center;
+}
+.number-page{
+    display: inline-block;
+    height: 31px;
+}
+.number-page span{
+    float: left;
+    color: white;
+    background-color: red;
+    display: block;
+    padding: 0 10px;
+    font: 18px/34px IRANSans;
+    border-radius: 5px;
+    height: 31px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+.number-page a{
+    float: left;
+    color: white;
+    background-color: green;
+    display: block;
+    padding: 0 10px;
+    font: 18px/34px IRANSans;
+    border-radius: 5px;
+    height: 31px;
+    margin-right: 5px;
+    text-decoration: none !important;
+}
+.number-page a:last-child{
+    float: left;
+    color: white;
+    background-color: green;
+    display: block;
+    padding: 0 10px;
+    font: 15px/34px IRANSans;
+    border-radius: 5px;
+    height: 31px;
+    margin-right: 3px;
+    text-decoration: none !important;
+}
+.mi-in{
+    overflow: hidden;
+    width: 100%;
+    border-bottom: 1px dotted #696969;
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+}
+.mi-in img{
+    float: right;
+    display: block;
+    margin-left: 10px;
+    width: 120px;
+    height: auto;
+
+}
+.mi-rutitr{
+    display: block;
+    float: right;
+    height: auto;
+    font: 16px/24px IRANSans;
+    text-align: justify;
+}
+.mi-rutitr a{
+   text-decoration: none;
+    color: black;
+
+}
+.mi-titr{
+    float: right;
+    display: block;
+    height: auto;
+    font: 18px/24px IRANSans;
+    font-weight: bold;
+    text-align: justify;
+}
+.mi-titr a{
+    text-decoration: none;
+    color: black;
+}
+.mi-titr i{
+     color: red;
+    padding-left: 8px;
+    font-size: 23px;
+    float: right;
+    line-height: 24px;
+ }
+.mi-sub{
+    float: right;
+    display: block;
+    height: auto;
+    font: 14px/24px IRANSans;
+    text-align: justify;
+    color: black;
+}

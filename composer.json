@@ -1,0 +1,12 @@
+{
+    "name": "iransamaneh/smarty",
+    "authors": [
+        {
+            "name": "Hamidreza Bistooni",
+            "email": "hamidrezabstn@gmail.com"
+        }
+    ],
+    "require": {
+        "smarty/smarty": "^3.1"
+    }
+}

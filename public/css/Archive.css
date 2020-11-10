@@ -1,0 +1,102 @@
+.ar-main-body{
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+.ar-right{
+    margin-bottom: 10px;
+    padding-left: 10px;
+}
+.ar-left{
+    padding-left: 11px;
+    padding-right: 5px;
+}
+.arr-header{
+    margin-bottom: 18px;
+    border-bottom: 1px solid black;
+    height: 34px;
+}
+.arr-header span{
+    text-align: right;
+    padding-right: 5px;
+    color:black ;
+    border-bottom: 3px solid green;
+    font: 18px/37px iransans;
+    font-weight: bold;
+}
+.arr-main{
+
+    font: 12px/22px iransans;
+}
+.arrm-form{
+    width: 100%;
+}
+.form-top{
+   border: 1px solid gray;
+    background: #E9E9E9;
+
+}
+.form-top div{
+   padding: 3px;
+
+}
+.form-lable{
+    font-weight: bold;
+    margin: 3px 0;
+    color: black;
+    font: 13px iransans;
+}
+.form-lable select{
+    padding-right: 5px;
+    color: black;
+    font: 13px iransans;
+}
+.pages{
+    direction: ltr;
+}
+.pages span{
+    text-decoration: none;
+    color: black;
+    font: 15px/22px iransans;
+}
+.pages a{
+    text-decoration: none;
+    color: black;
+    font: 15px/22px iransans;
+}
+.pages a i{
+    padding-right: 3px;
+    padding-left: 3px;
+    background-color: grey;
+    color: white;
+    font-size:13px ;
+}
+.arrm-news{
+    padding: 10px;
+}
+
+.arrmn-in{
+    border-bottom: 1px dashed black;
+    padding: 3px 0;
+    text-align: right;
+    width: 100%;
+}
+.arrmn-in:last-child{
+    border-bottom: none;
+}
+.arrmn-in  i{
+    font-size: 7px;
+    color: #4cae4c;
+
+}
+.arrmn-in a{
+    text-decoration: none;
+    color: black;
+    font: 13px/25px iransans;
+
+}
+.arrmn-in a:hover{
+    text-decoration: none;
+    color: brown;
+
+
+}

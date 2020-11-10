@@ -1,0 +1,435 @@
+@font-face {
+    font-family: 'IRANSans';
+    src: url('Fonts/BRoya.eot'); /* IE9 Compat Modes */
+    src: url('Fonts/BRoya.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+
+    url('Fonts/BRoya.woff') format('woff'), /* Pretty Modern Browsers */
+    url('Fonts/BRoya.ttf')  format('truetype'); /* Safari, Android, iOS */
+
+}
+
+
+*{
+    direction: rtl;
+    font-family: IRANSans;
+
+}
+h1{
+    margin: 0;
+    padding: 0;
+}
+.main-body{
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+.top-slider{
+
+    width: 100%;
+    float: right;
+    overflow: hidden;
+    border: 1px solid #c8c8c8;
+    padding: 0 35px 0 35px;
+    position: relative;
+    margin-bottom: 15px;
+}
+.owl-carousel{
+    width: 100%;
+
+}
+
+.s-img{
+    float: right;
+    overflow: hidden;
+    padding: 19px 0 19px 0px;
+    width: 100%
+}
+.si-pic{
+    float: right;
+    height: 93px;
+    overflow: hidden;
+    width: 140px !important;
+}
+.s-matn{
+    overflow: hidden;
+    max-height: 94px;
+}
+.s-matn h2 a{
+    font: 15px/23px IRANSans;
+    text-align: right;
+    direction: rtl;
+    text-decoration: none;
+    color: #000;
+    padding-right: 11px;
+    display: block;
+}
+.owl-prev{
+    position: absolute;
+    width: 15px;
+    overflow: hidden;
+    top: 43%;
+    left: 3px;
+    cursor: pointer;
+    color: #5d5d5d;
+    z-index: 998;
+    font-size: 26px !important;
+    height: 29px;
+    line-height: 16px !important;
+}
+.owl-next{
+    cursor: pointer;
+    font-size: 26px !important;
+    height: 29px;
+    line-height: 16px !important;
+    overflow: hidden;
+    position: absolute;
+    right: 9px;
+    top: 43%;
+    width: 15px;
+    z-index: 998;
+    color: #5d5d5d;
+}
+.section-right{
+    padding-left:15px;
+}
+.section-left{
+    padding-right:15px;
+}
+.sm-head{
+    width: 100%;
+    height: 44px;
+    border-radius: 5px;
+    padding: 0 20px;
+    margin-bottom: 27px;
+    background: #eeeeee;
+}
+.smh-in-r{
+    color: #223821;
+    text-align: right;
+    padding-left: 20px;
+}
+.smhir-1{
+    float: right;
+    font: 11px IRANSans;
+}
+.smhir-1 a{
+    text-align: right;
+    display: block;
+    float: right;
+    font: 13px/44px IRANSans;
+    color: #223821;
+    text-decoration: none;
+}
+.smhir-1 span{
+    display: block;
+    float: right;
+    font: 13px/44px IRANSans;
+    color: #223821;
+    padding: 0 10px;
+}
+.smh-date{
+    float: left;
+    color: #232323 !important;
+    font: 13px/44px IRANSans !important;
+    text-align: left;
+}
+@media (min-width: 768px){
+    .smh-date {
+        text-align: left;
+    }
+}
+.smh-in-l{
+    border-right: 1px solid #d0d0d0;
+    height: 44px;
+}
+.smhl-icons{
+    float: left;
+    overflow: hidden;
+}
+.smhl-icons a:hover{
+    text-decoration: none;
+    color: red;
+}
+.smhl-icons a i:hover{
+    text-decoration: none;
+    color: red;
+}
+.smhl-icons i{
+    color: #696969;
+    font-size: 20px;
+    line-height: 40px;
+}
+.smhl-print{
+    float: left;
+    text-decoration: none;
+    margin-right: 5px;
+}
+
+.smhl-mail{
+    float: left;
+    text-decoration: none;
+    margin-right: 5px;
+}
+.smhl-save{
+    float: left;
+    text-decoration: none;
+    margin-right: 5px;
+}
+.smhl-size-d{
+    text-decoration: none;
+    float: left;
+    margin-right: 5px;
+
+}
+.smhl-size-r{
+    text-decoration: none !important;
+    float: left;
+    margin-right: 5px;
+    font: 23px/38px IRANSans;
+    font-weight: bold;
+    color: #696969;
+    display: inline-block;
+    text-align: center;
+    width: 28px;
+    background-position: -17px 0;
+    height: 14px;
+    margin-top: 2px;
+    line-height: 30px;
+}
+.smhl-size-d{
+    text-decoration: none;
+    float: left;
+}
+.onvan{
+    margin-bottom: 10px;
+    margin-top: 4px;
+    text-align: center;
+
+    color: #000;
+}
+.onvan a{
+   text-decoration: none;
+    color:#000 ;
+    font: 28px/44px IRANSans;
+    font-weight: bolder;
+}
+.img-sub{
+    font: 14px/27px iransans;
+    color: #242424;
+    margin-top: 10px;
+    background: #eeeeee;
+    padding: 0 0 0 15px;
+    border-radius: 5px;
+    text-align: justify;
+}
+.imsb-in{
+    float: right;
+    display: block;
+    border: 0;
+    margin-left: 10px;
+}
+.badane-asli{
+    text-align: justify;
+    padding: 10px;
+    margin-top: 10px;
+    font:15px/27px IRANSans;
+}
+.b-asli-img{
+    float: left;
+    width: 231px;
+    height: 154px;
+}
+.b-asli-matn{
+
+    text-align: justify;
+    font: 15px/27px IRANSans;
+    font-weight: normal;
+    color: #292929;
+}
+.tags{
+    margin: 10px 0;
+}
+.tag-icon{
+    display: block;
+    float: right;
+    margin-top: 3px;
+    margin-left: 8px;
+    color: #000;
+    font-size: 24px;
+}
+.tag-titr{
+    display: block;
+    float: right;
+    font: 13px/28px IRANSans;
+    font-weight: normal;
+    color: #000;
+}
+.tags-in:first-of-type{
+margin-right: 16px;
+}
+.tags-in{
+    text-decoration: none !important;
+    display: block;
+    float: right;
+    color: #000;
+    font: 13px/28px iransans;
+    margin-left: 5px;
+    border-radius: 5px;
+    background: #e4e4e4;
+    padding: 0 13px;
+    margin-bottom: 10px;
+}
+.tags-in:hover{
+    background-color: #4cae4c;
+    color: white;
+}
+.butt-icons{
+    margin: 30px 0;
+}
+.butt-icons a{
+    text-decoration: none;
+    float: right;
+    color: black;
+    padding-left: 30px;
+    font: 13px/24px IRANSans;
+}
+.butt-icons a i{
+    float: right;
+    color: black;
+    margin-left: 9px;
+    font-size:20px ;
+}
+.share-social{
+    margin: 10px 0;
+}
+.padd{
+    padding-left: 10px;
+}
+.share-icons{
+
+    background: #eeeeee none repeat scroll 0 0;
+    margin-bottom: 15px;
+    overflow: hidden;
+    height: 48px;
+    border-radius: 9px;
+}
+.share-icons a{
+    color: black;
+    text-decoration: none;
+    float: left;
+    text-align: center;
+    line-height: 48px;
+    width: 25%;
+}
+.share-icons a:hover{
+    color: #5cb85c;
+}
+.short-link{
+    background: #eeeeee none repeat scroll 0 0;
+    margin-bottom: 15px;
+    overflow: hidden;
+    height: 48px;
+    border-radius: 9px;
+    padding-right: 27px;
+    padding-left: 19px;
+}
+.short-link span{
+    float: right;
+    color: #c20000;
+    font: 17px/48px IRANSans;
+}
+.short-link a{
+    text-decoration: none;
+    direction: ltr;
+    float: left;
+    color: #c20000;
+    font: 12px/48px IRANSans !important;
+}
+.news-comment{
+    background: #eee;
+    margin-bottom: 15px;
+    padding: 13px 16px;
+    border-radius: 5px;
+}
+.nc-head{
+    height: 24px;
+    font: 11px tahoma;
+    line-height: 22px;
+    float: right;
+    margin-left: 10px;
+    margin-bottom: 18px;
+
+}
+.nc-head span{
+    color: #c30001;
+    display: inline-block;
+    padding: 0 12px;
+    font: 16px/28px IRANSans;
+    font-weight: bold;
+
+}
+.rc-margin{
+    margin-bottom: 15px !important;
+}
+.r-margin{
+    margin-right: 16%;
+
+}
+.r-margin input[type='submit']{
+}
+.lable-name{
+    font-size: 13px;
+    font-weight: normal;
+    color: #000000;
+    font: 10pt IRANSans;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+.form-input{
+    font: 11px IRANSans;
+    display: block;
+    width: 100%;
+    height: 24px;
+    padding: 0px 12px;
+    font-size: 14px;
+    line-height: 24px;
+    color: #555555;
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+.wrapper{
+    clear: both;
+    height: 0;
+    overflow: hidden;
+}
+.send-but{
+    color: #fff;
+    background-color: #029d04;
+    font: 12px/27px iransans;
+    border-radius: 5px;
+    padding: 0 15px;
+    border: none;
+}
+.form-control{
+    min-height: 111px !important;
+    height: auto;
+    font: 11px IRANSans;
+    display: block;
+    width: 100%;
+    height: 24px;
+    padding: 0px 12px;
+    font-size: 14px;
+    line-height: 24px;
+    color: #555555;
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+/*@media screen and (min-width: 768px) and (max-width: 992px){*/
+/*    .r-margin{*/
+/*        margin-right: 40px;*/
+
+/*    }*/
+/*}*/
